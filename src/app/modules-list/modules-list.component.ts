@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DataService} from '../data.service'
 
 @Component({
   selector: 'app-modules-list',
@@ -7,15 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ModulesListComponent implements OnInit {
   
-  constructor() { }
 
+  constructor(private data: DataService) { }
+  
+  message:string;
   ngOnInit() {
+    this.data.currentMessage.subscribe(message => this.message = message)
   }
  
  
  detail(modulenum:number){
-  
-    console.log(modulenum)
+  this.data.changeMessage(modulenum)
    var btns = document.getElementsByName("modules")
    console.log(btns)
    btns.forEach(function(btn){

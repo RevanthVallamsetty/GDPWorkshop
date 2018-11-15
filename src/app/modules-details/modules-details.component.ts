@@ -5,7 +5,6 @@ import { DataService } from "../data.service";
 @Component({
   selector: 'app-modules-details',
   templateUrl: './modules-details.component.html',
-  // template: '{{message}}',
   styleUrls: ['./modules-details.component.scss']
 })
 export class ModulesDetailsComponent implements OnInit {

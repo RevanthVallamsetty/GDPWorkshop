@@ -1,45 +1,31 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-4"></div>
-    <div class="col-md-4">
-        <a class="btn btn-success btn-block isEnabled" ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-1</b></a>
-    </div>
-  </div>
-  <div class="row">
-      <div class="col-md-4"></div>
-      <div class="col-md-4">
-          <a class="btn btn-success btn-block isDisabled" ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-2</b></a>
-      </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <a class="btn btn-success btn-block isDisabled" ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-3</b></a>
+<div class="container" ng-app="app-modules-list">
+  <div class="row text-center">
+    <div class="col-md-1"></div>
+        <div class="padding">
+        <button class="btn btn-success isDisabled"  name="modules" id="mod1" (click)=detail(1) ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-1</b></button>
         </div>
-    </div>
-    <div class="row">
-          <div class="col-md-4"></div>
-          <div class="col-md-4">
-              <a class="btn btn-success btn-block isDisabled"><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-4</b></a>
-    </div>
-    </div>
-    <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <a class="btn btn-success btn-block isDisabled" ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-5</b></a>
-    </div>
+      
+        <div class="padding">
+          <button class="btn btn-success isDisabled" name="modules" id="mod2" (click)=detail(2)><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-2</b></button>
+        </div>
+      
+        <div class="padding">
+            <button class="btn btn-success isDisabled" name="modules" id="mod3"(click)=detail(3) ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-3</b></button>
+       </div>
+          
+       <div class="padding">
+              <button class="btn btn-success isDisabled" name="modules"id="mod4" (click)=detail(4)><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-4</b></button>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="padding">
+                <button class="btn btn-success isDisabled" name="modules" id="mod5" (click)=detail(5)><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-5</b></button>
+        </div>
+                <div class="padding">
+                  <button class="btn btn-success isDisabled" name="modules" id="mod6" (click)=detail(6) ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-6</b></button>
+               </div>     
+        <div class="padding">
+           <button class="btn btn-success isDisabled" name="modules" id="mod7" (click)=detail(7)><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-7</b></button>
+       </div>
           </div>
-          <div class="row">
-              <div class="col-md-4"></div>
-              <div class="col-md-4">
-                  <a class="btn btn-success btn-block isDisabled" ><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-6</b></a>
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <a class="btn btn-success btn-block isDisabled"><img src="../../assets/moduletick.png" style="height:20px;width:20px;padding-right: 4px"><b>Module-7</b></a>
-                </div>
-            </div>
-        
-</div>
+       </div>
+       

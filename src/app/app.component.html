@@ -1,4 +1,5 @@
-<app-navbar></app-navbar>
-<app-modules-list></app-modules-list>
-<app-modules-details></app-modules-details>
+<app-navbar *ngIf="showMenu"></app-navbar>
+<app-modules-list *ngIf="showMenu"></app-modules-list>
+<app-modules-details *ngIf="showMenu"></app-modules-details>
 <router-outlet></router-outlet>
+

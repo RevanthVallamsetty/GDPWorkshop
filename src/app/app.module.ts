@@ -10,6 +10,7 @@ import { AboutTheCourseComponent } from './about-the-course/about-the-course.com
 import { SyllabusComponent } from './syllabus/syllabus.component';
 import { CalendarComponent } from './calendar/calendar.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,7 @@ import { CalendarComponent } from './calendar/calendar.component';
     ModulesDetailsComponent,
     AboutTheCourseComponent,
     SyllabusComponent,
-    CalendarComponent
+    CalendarComponent,
   ],
   imports: [
     BrowserModule,
